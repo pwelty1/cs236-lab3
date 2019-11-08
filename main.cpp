@@ -9,6 +9,7 @@
 #include "Token.h"
 #include "Scanner.h"
 #include "Parser.h"
+#include "Interpreter.h"
 
 
 using namespace std;
@@ -21,10 +22,7 @@ int main (int argc, char* argv[]){
   //cout << "----------------------checking new Tokens----------------------" << endl;
   Parser data(read_n_poo.getTokens());
   data.parse();
-
-  // cout<< "Total Tokens = " << read_n_poo.getNumTkns()<< endl;
-
-  // BEGIN PARSING (checking grammar)
+  Interpreter inter(data.getDataprogram());
 
 
   return 0;

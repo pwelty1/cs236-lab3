@@ -49,6 +49,7 @@ class Parser {
     void parseExpression();
     void parseOperator();
     void match(Token current, string correct);
+    void getDataprogram(){return newData};
 
 };
 //#include "Parser.h"
@@ -96,7 +97,8 @@ void Parser::parse() {
   try {
     parseDatalogProgram();
     cout << "Success!" << endl;
-    newData.toString();
+    //newData.toString();
+
   }
   catch(Token e){
     cout <<"Failure!"<< endl;
