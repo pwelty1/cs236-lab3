@@ -1,6 +1,6 @@
 #ifndef DATABASE
 #define DATABASE
-
+//CAN BE EMPY!!!!!
 #include <iostream>
 #include <string>
 #include <cctype>
@@ -11,14 +11,19 @@
 #include <exception>
 #include <map>
 
-#include <"DatalogProgram.h">
-#include <"Database.h">
+#include"Relation.h"
 
 using namespace std;
 
 class Database : public map<string, Relation> {
 
-}
+private:
+
+
+public:
+
+
+};
 
 
 #endif

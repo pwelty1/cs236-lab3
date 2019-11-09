@@ -1,6 +1,6 @@
 #ifndef SCHEME
 #define SCHEME
-
+//CAN BE EMPY!!!!!
 #include <iostream>
 #include <string>
 #include <cctype>
@@ -15,7 +15,7 @@ using namespace std;
 class Scheme : public vector<string> {
 
   private:
-    
+
   public:
 
 };

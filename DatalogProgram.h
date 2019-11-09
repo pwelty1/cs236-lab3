@@ -30,6 +30,11 @@ class DatalogProgram {
     void addRule(Rule rle);
     void addQuery(Predicate qry);
     void toString();
+    vector<Rule> getRules() {return rules;}
+    vector<Predicate> getSchemes() {return schemes;}
+    vector<Predicate> getFacts() {return facts;}
+    vector<Predicate> getQueries() {return queries;}
+
 };
 
 void DatalogProgram::addScheme(Predicate schme) {

@@ -1,6 +1,6 @@
 #ifndef TUPLE
 #define TUPLE
-
+//CAN BE EMPY!!!!!
 #include <iostream>
 #include <string>
 #include <cctype>

@@ -49,7 +49,7 @@ class Parser {
     void parseExpression();
     void parseOperator();
     void match(Token current, string correct);
-    void getDataprogram(){return newData};
+    DatalogProgram getDataprogram(){return newData;}
 
 };
 //#include "Parser.h"
