@@ -27,6 +27,7 @@ public:
   void addRelation(string nam, vector<string> attbs);
   void insert(vector<string> fcts);
   void toString();
+  void clearAttributes() {attributes.clear();}
 
 };
 

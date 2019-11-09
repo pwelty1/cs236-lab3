@@ -96,7 +96,7 @@ void Parser::parse() {
   //cout<< "________PARSING________"<< endl;
   try {
     parseDatalogProgram();
-    cout << "Success!" << endl;
+    //cout << "Success!" << endl;
     //newData.toString();
 
   }
