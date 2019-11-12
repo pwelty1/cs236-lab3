@@ -9,6 +9,7 @@
 #include <exception>
 #include <list>
 #include <iterator>
+//#include <bool>
 
 using namespace std;
 
@@ -26,9 +27,11 @@ public:
   void clearParams();
   string getId(){return id;}
   vector<string> getParams() {return parameters;}
+
 };
 
 void Predicate::addParam(string param) {
+
   parameters.push_back(param);
 }
 

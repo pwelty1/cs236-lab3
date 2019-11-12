@@ -23,6 +23,7 @@ int main (int argc, char* argv[]){
   Parser data(read_n_poo.getTokens());
   data.parse();
   Interpreter inter(data.getDataprogram());
+  inter.evaluateQueries();
 
 
   return 0;
